@@ -15,7 +15,7 @@ crate-type = ["cdylib", "lib"]
 name = "sbpf_linker"
 
 [dependencies]
-sbpf-assembler = { git = "https://github.com/blueshift-gg/sbpf.git", package = "sbpf-assembler", rev = "a7f19f208bfecafa8a33daac09a276a0938e5582" } # Change rev to whatever commit you're trying to test
+sbpf-assembler = { git = "https://github.com/blueshift-gg/sbpf.git", package = "sbpf-assembler", rev = "a7f19f208bfecafa8a33daac09a276a0938e5582" } # Change git to your fork and rev to the commit you want to test 
 sbpf-common = { git = "https://github.com/blueshift-gg/sbpf.git", package = "sbpf-common", rev = "a7f19f208bfecafa8a33daac09a276a0938e5582" }  # Same as above 
 clap = { workspace = true }
 either = { version = "1.16.0", features = ["serde"] }
